@@ -1,0 +1,14 @@
+Package: tmPack
+Type: Package
+Title: Just an example of how to package {tm} modules
+Version: 0.0.0.9000
+Authors@R: c(
+  person('Mustapha', 'Larbaoui', email = 'larbamoui@gmail.com', role = c('cre', 'aut')))
+Description: This is an example of how to package and share {tm} modules
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    tidymodules
+RoxygenNote: 7.0.2
